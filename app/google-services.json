@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1082891794677",
+    "firebase_url": "https://baybuddies-f5f64.firebaseio.com",
+    "project_id": "baybuddies-f5f64",
+    "storage_bucket": "baybuddies-f5f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082891794677:android:cacdd826103ee931",
+        "android_client_info": {
+          "package_name": "baybuddies.hackday.com.baybuddies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082891794677-dkfgd5m284oad0s3e0or7ml343vgdnof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkkhNlPVpDoGOhmCEexTAtEyRoSvHIyGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
