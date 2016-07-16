@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="baybuddies.hackday.com.baybuddies.UserProfile">
+
+    <item
+        android:id="@+id/action_add_friends"
+        android:icon="@drawable/ic_find_replace_black_36dp"
+        android:title="@string/action_settings"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:menuCategory="secondary"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>
