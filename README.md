@@ -1,4 +1,4 @@
-# internhackday
+# QuickLink [in]ternHackday
 
 This application aims to connect professionals on LinkedIn in a networking environment. 
 Users log in to the Android application utilizing LinkedIn authorization. 
