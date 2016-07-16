@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.2.1_93610fd0769090542ba0fc2abdca0b9b2ecc1505.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_55ff8a11fb9ff2307d04db6ceecd6cd1cec9f710.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.2.1_a6e5cced45d6240aaf64a19fa818fb89d2d50e43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.2.1_a04bdf0d619ddc614b9a6c73f5e70d10d0ad003d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_246546d440b9b64edf1a3518b32069729b0951a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.2.1_23d04edcccaa94d9a338e6cfcec08e14686868d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_acd1ccbde28d704e9a5f0666303e8796ce010b1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_d17347a0b6c0f8a40e35e6b27961482869589867.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.0.0_d33ac6ca6e4841e2d68af8a904c597c24a18e0b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/baybuddies/linkedin-sdk/unspecified/jars/libs/volley.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="eb6152df9339c4cf41b0f5f2db2828c81cc0e7da">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/volley_9acd73a59754bb6e4f32c7ef885b941715862dba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/baybuddies/linkedin-sdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="9dd97f4af42feed7ba1fc831df514bfc04eeec7e">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/baybuddies-linkedin-sdk-unspecified_db9a4f7e7d104506e1ffa5840478df489951d9e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_ea35517a654c5f0c7308844adf8b42ede7cc8a41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.2.1_8e3b12db74fe7633b8f053916d85cd4dcefe5c3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_2764b33a49b20db8c5503d41699a6664d9548844.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="36e2b438f9b0d68fb2482c8f389e249e32840cff">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-common-9.2.1_aa3526e260fd1ebdf1c4e73b103d9097ae51648a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha4/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="affe29a90a2a709bfd2b8d6411aa99c05a2be96f">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha4_0d1508c262dd6b0b01ed107ac0df32f9ef7ae1d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.2.1_db7e8ce287f2b03ecb7530272f790883ba53d8be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_b964508ad5618e6fa87b4618834154eb79f0cfd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.2.1_fb0899422898a2bd5da6e02369f7d9e420724b2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.2.1_23fec1ba84807d23cf06abfc6af3e444fdae7d71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha4/constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="a882fef6a6b9e3efbb0b6b001895a5fc7c35b391">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha4_2b8c6e68b43f334d1f95f685b9f6d14e6ff5d437.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="e719de687ac45141de3dd613907860a495580af0">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-storage-9.2.1_743ac34e646e3cfd69ec589cab6ef999b922dcb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_848cc39f37a4bd079e3324968d56a0a46c4233b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.0.0_9ea113029384dc4939a0a8b3fb5c703deed46fc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/srpatel/hack/baybuddies/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="24.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/srpatel/hack/baybuddies/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.2.1_04fb6e5acbd07c62a8feafb9e9ac67956700af88.jar" />
+    </item>
+
+</items>
