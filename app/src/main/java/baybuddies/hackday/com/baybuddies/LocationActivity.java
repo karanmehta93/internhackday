@@ -149,19 +149,39 @@ public class LocationActivity extends AppCompatActivity implements GoogleApiClie
 
   private boolean isNearUser(Person own, Person other, double threshold)
   {
-    Location loc1 = new Location("");
-    loc1.setLatitude(own.lat);
-    loc1.setLongitude(own.longi);
+    try {
+      Location loc1 = new Location("");
+      loc1.setLatitude(own.lat);
+      loc1.setLongitude(own.longi);
 
-    Location loc2 = new Location("");
-    loc2.setLatitude(other.lat);
-    loc2.setLongitude(other.longi);
+      Location loc2 = new Location("");
+      loc2.setLatitude(other.lat);
+      loc2.setLongitude(other.longi);
 
-    float distanceInMeters = loc1.distanceTo(loc2);
-    Log.d("TAG", "Distance between "+ own.email + " and "+other.email+ " is" +distanceInMeters);
-    if(distanceInMeters<=threshold)
-      return true;
-    return false;
+      float distanceInMeters = loc1.distanceTo(loc2);
+      Log.d("TAG", "Distance between "+ own.email + " and "+other.email+ " is" +distanceInMeters);
+      if(distanceInMeters<=threshold)
+        return true;
+      return false;
+    } catch (Exception e) {
+      e.printStackTrace();
+      return false;
+    }
+  }
+
+
+  @Override
+  protected void onDestroy() {
+    super.onDestroy();
+
+    mDatabase.child("user").child(modifiedEmailAddress).child("name").setValue(null);
+    mDatabase.child("user").child(modifiedEmailAddress).child("image").setValue(null);
+    mDatabase.child("user").child(modifiedEmailAddress).child("lat").setValue(null);
+    mDatabase.child("user").child(modifiedEmailAddress).child("long").setValue(null);
+    mDatabase.child("user").child(modifiedEmailAddress).child("publicurl").setValue(null);
+    mDatabase.child("user").child(modifiedEmailAddress).child("email").setValue(null);
+
+    finish();
   }
 
   private void loadData() {

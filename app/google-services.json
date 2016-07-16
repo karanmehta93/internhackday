@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1082891794677-2agifr4rrg4faqthhmmjp8uq9r160m16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "baybuddies.hackday.com.baybuddies",
+            "certificate_hash": "A2E133EE2E126B74C232D0DAFD52382A9E79CC32"
+          }
+        },
+        {
           "client_id": "1082891794677-dkfgd5m284oad0s3e0or7ml343vgdnof.apps.googleusercontent.com",
           "client_type": 3
         }

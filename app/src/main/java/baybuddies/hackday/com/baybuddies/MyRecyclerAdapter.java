@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import baybuddies.hackday.com.baybuddies.chat.ChatActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -78,14 +79,17 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Cu
     protected TextView name;
     protected TextView email;
     protected ImageView buttonViewProfile;
+    protected ImageView buttonChat;
 
 
     public CustomViewHolder(View view) {
       super(view);
       this.profileImage = (ImageView) view.findViewById(R.id.person_thumbnail_imageview);
       this.buttonViewProfile = (ImageView) view.findViewById(R.id.view_profile);
+      this.buttonChat = (ImageView) view.findViewById(R.id.chat_button);
       this.name = (TextView) view.findViewById(R.id.person_name);
       this.email = (TextView) view.findViewById(R.id.person_email);
+
 
       this.buttonViewProfile.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -93,6 +97,14 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Cu
           int itemPosition = getAdapterPosition();
           Person feedItem = feedItemList.get(itemPosition);
           openIntent(feedItem);
+        }
+      });
+
+      this.buttonChat.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          Intent intent = new Intent(mContext, ChatActivity.class);
+          mContext.startActivity(intent);
         }
       });
 

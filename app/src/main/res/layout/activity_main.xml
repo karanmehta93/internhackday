@@ -14,25 +14,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/welcome_li"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LinkedIn"
-            android:textSize="20dp"
-            android:layout_marginBottom="20dp"/>
-
-
-        <Button
-            android:id="@+id/login_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:layout_marginBottom="15dp"/>
 
     </LinearLayout>
-
-
 
 
     <LinearLayout
@@ -44,7 +27,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Package info" />
+            android:visibility="gone"
+        android:text="Package info" />
 
         <View
             android:layout_width="fill_parent"
@@ -55,6 +39,7 @@
             android:id="@+id/show_hash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:text="show pack / hash" />
 
         <TextView
@@ -73,5 +58,12 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginBottom="15dp"/>
 
 </LinearLayout>

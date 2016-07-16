@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">baybuddies</string>
+    <string name="app_name">QuickLink</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -20,5 +20,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="sign_out">Sign Out</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="invite_menu_label">Invite</string>
 
 </resources>

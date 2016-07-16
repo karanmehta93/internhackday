@@ -204,4 +204,10 @@ public class UserProfile extends Activity
     drawer.closeDrawer(GravityCompat.START);
     return true;
   }
+
+  @Override
+  protected void onDestroy() {
+    super.onDestroy();
+    finish();
+  }
 }

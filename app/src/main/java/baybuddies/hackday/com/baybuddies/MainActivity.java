@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.linkedin.platform.LISessionManager;
 import com.linkedin.platform.errors.LIAuthError;
 import com.linkedin.platform.listeners.AuthListener;
@@ -25,7 +24,7 @@ public class MainActivity extends Activity {
   private static final String TAG = MainActivity.class.getSimpleName();
   public static final String PACKAGE = "baybuddies.hackday.com.baybuddies";
 
-  Button login_linkedin_btn,hask_key;
+  Button login_linkedin_btn, hask_key;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +52,7 @@ public class MainActivity extends Activity {
 
   // Authenticate with linkedin and intialize Session.
 
-  public void login_linkedin(){
+  public void login_linkedin() {
     LISessionManager.getInstance(getApplicationContext()).init(this, buildScope(), new AuthListener() {
       @Override
       public void onAuthSuccess() {
@@ -76,8 +75,9 @@ public class MainActivity extends Activity {
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     LISessionManager.getInstance(getApplicationContext()).onActivityResult(this, requestCode, resultCode, data);
-    Intent intent = new Intent(MainActivity.this,UserProfile.class);
+    Intent intent = new Intent(MainActivity.this, UserProfile.class);
     startActivity(intent);
+    finish();
   }
 
   // This method is used to make permissions to retrieve data from linkedin
@@ -88,7 +88,7 @@ public class MainActivity extends Activity {
 
   // This Method is used to generate "Android Package Name" hash key
 
-  public void generateHashkey(){
+  public void generateHashkey() {
     try {
       PackageInfo info = getPackageManager().getPackageInfo(
           PACKAGE,
